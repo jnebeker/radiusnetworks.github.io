@@ -80,7 +80,7 @@ $ cd bluez-5.8
 Note: the second command below will take the better part of an hour.  Better find something to do!
 
 ```
-$ sudo ./configure -disable-systemd
+$ sudo ./configure --disable-systemd
 $ sudo make
 $ sudo make install
 ```
